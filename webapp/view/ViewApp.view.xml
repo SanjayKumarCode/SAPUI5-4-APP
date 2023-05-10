@@ -1,0 +1,76 @@
+<mvc:View controllerName="com.example.timmer.controller.ViewApp"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    >
+<Page id ="tiles" showHeader="false">
+    <l:VerticalLayout>
+      <l:HorizontalLayout  allowWrapping="true">
+        <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Count Down Timmer" 
+        press="press">
+        </GenericTile>
+          <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Covid 19" 
+        press="covid">
+        </GenericTile>
+
+          <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Vaccination Tracker" 
+        press="vacc">
+        </GenericTile>
+
+         <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Pollution" 
+        press="Pollu">
+        </GenericTile>
+
+      
+      </l:HorizontalLayout>
+    </l:VerticalLayout>
+    <HBox>
+ <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Portfolio for Detail about Employee" 
+        press="portfo">
+        </GenericTile>
+
+ <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Sales Order List with oData" 
+        press="salesorder">
+        </GenericTile>
+
+       
+     </HBox>
+
+    <HBox>
+    
+
+     <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Weather Application" 
+        press="weather">
+        </GenericTile> 
+        
+         <GenericTile class="sapUiTinyMarginBegin 
+        sapUiTinyMarginTop tileLayout" header="Barcode Scanning" 
+        press="barcode">
+        </GenericTile> 
+
+             <!-- <mvc:XMLView viewName="com.example.timmer.view.Weather.Weather"/> -->
+           
+        </HBox>      
+</Page>
+
+
+
+
+
+
+
+    <!-- <Shell>
+    <pages>
+    <Page id="page" title="{i18n>title}">
+        <content> </content>
+    </Page>
+      </pages>
+     </Shell> -->
+</mvc:View>

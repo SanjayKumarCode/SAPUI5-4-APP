@@ -1,0 +1,48 @@
+<mvc:View controllerName="com.example.timmer.controller.countdown.countdown"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    >
+<Page id="tiles" showHeader="false">
+
+	<Button text="Coming Soon"
+						press="onPress"
+						ariaDescribedBy="comingSoonButtonDescription genericButtonDescription"
+						enabled="false">
+					
+				</Button>
+
+
+
+
+
+
+<!-- <l:VerticalLayout>
+<l:HorizontalLayout content="{tiles>/}" allowWrapping="true">
+	<GenericTile class="sapUiTinyMarginBegin
+     sapUiTinyMarginTop 
+     tileLayout" header="{tiles>title}" 
+      press="press(${tiles>route})"
+	 >
+		
+	</GenericTile>
+
+
+</l:HorizontalLayout>
+</l:VerticalLayout> -->
+</Page>
+
+
+
+
+
+
+
+    <!-- <Shell>
+    <pages>
+    <Page id="page" title="{i18n>title}">
+        <content> </content>
+    </Page>
+      </pages>
+     </Shell> -->
+</mvc:View>
